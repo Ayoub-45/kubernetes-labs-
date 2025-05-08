@@ -30,3 +30,10 @@ spec:
           image: nginx:1.22.1
           ports:
             - containerPort: 80
+# File structure
+.
+├── README.md
+├── nginx-deployment.yaml
+├── Perform a Rolling Update to v1.27.5.png
+├── View Rollout History.png
+└── yaml-file.png

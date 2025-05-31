@@ -61,13 +61,13 @@ to start the ClusterIP service
 ```bash
 kubectl apply -f nginx-service.yaml
 ```
-![Browser Screenshot](screenshots/nginx&service.png)
+![Browser Screenshot](screenshots/deployment&service.png)
 ## 🔁  Port forwarding the service
 
 ```bash
 kubectl port-forward service/nginx-service 8080:80
 ```
-![Browser Screenshot](screenshots/port-forward.png)
+![Browser Screenshot](screenshots/forward-port-to-8080.png)
 ### finally: open navigator and past the link: http://localhost:8080
 You should see the default NGINX Welcome Page.
 ![Browser Screenshot](screenshots/result.png)
